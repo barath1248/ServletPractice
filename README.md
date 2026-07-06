@@ -19,7 +19,7 @@ This repository contains my daily Java Servlet practice projects while learning 
 | App1 | Basic Servlet, First Servlet Program | ✅ |
 | App2 | Task completion | ✅ |
 | App3 | Task completion | ✅ |
-| App4 | RequestDispatcher | ⏳ |
+| App4 | Task completion| ✅ |
 | App5 | SendRedirect | ⏳ |
 | App6 | ServletConfig | ⏳ |
 | App7 | ServletContext | ⏳ |
@@ -29,6 +29,13 @@ This repository contains my daily Java Servlet practice projects while learning 
 | App11 | URL Rewriting | ⏳ |
 | App12 | Filters | ⏳ |
 | App13 | Listeners | ⏳ |
+| App14 | scheduling | ⏳ |
+| App15 | scheduling | ⏳ |
+| App16 | scheduling | ⏳ |
+| App17 | scheduling | ⏳ |
+| App18 | scheduling | ⏳ |
+| App19 | scheduling | ⏳ |
+| App20 | scheduling | ⏳ |
 
 > The table will be updated as I complete each project.
 
