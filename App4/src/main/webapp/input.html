@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Input</title>
+
+<style>
+.container{
+    width:450px;
+    margin:auto;
+    border:2px solid black;
+    padding:20px;
+}
+
+.box{
+    border:1px solid black;
+    padding:20px;
+    margin-bottom:20px;
+}
+</style>
+
+</head>
+<body>
+
+<div class="container">
+
+    <div class="box">
+
+        <h2>Login Form</h2>
+
+        <form action="login" method="post">
+
+            User Name :
+            <input type="text" name="uname">
+            <br><br>
+
+            Password :
+            <input type="password" name="pwd">
+            <br><br>
+
+            <input type="submit" value="Submit">
+
+        </form>
+
+    </div>
+
+    <div class="box">
+
+        <h2>Product Form</h2>
+
+        <form action="product" method="post">
+
+            Product Name :
+            <input type="text" name="pname">
+            <br><br>
+
+            Product Id :
+            <input type="text" name="pid">
+            <br><br>
+
+            Product Quantity :
+            <input type="text" name="qty">
+            <br><br>
+
+            Product Price :
+            <input type="text" name="price">
+            <br><br>
+
+            <input type="submit" value="Get Data">
+
+        </form>
+
+    </div>
+
+</div>
+
+</body>
+</html>
