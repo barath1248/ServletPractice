@@ -20,7 +20,7 @@ This repository contains my daily Java Servlet practice projects while learning 
 | App2 | Task completion | ✅ |
 | App3 | Task completion | ✅ |
 | App4 | Task completion| ✅ |
-| App5 | SendRedirect | ⏳ |
+| App5 | RequestDispatcher | ✅ |
 | App6 | ServletConfig | ⏳ |
 | App7 | ServletContext | ⏳ |
 | App8 | Cookies | ⏳ |
