@@ -21,7 +21,7 @@ This repository contains my daily Java Servlet practice projects while learning 
 | App3 | Task completion | ✅ |
 | App4 | Task completion| ✅ |
 | App5 | RequestDispatcher | ✅ |
-| App6 | ServletConfig | ⏳ |
+| App6 | First JSP program | ✅ |
 | App7 | ServletContext | ⏳ |
 | App8 | Cookies | ⏳ |
 | App9 | HttpSession | ⏳ |
