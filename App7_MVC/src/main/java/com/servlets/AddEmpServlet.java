@@ -23,10 +23,12 @@ public class AddEmpServlet extends HttpServlet {
 		AddEmpDAO empdao=new AddEmpDAO();
 		int rowCount=empdao.insert_empdata(eb);
 		if(rowCount>0) {
-			System.out.println("Record Insertion Successfull");
-		}
+			req.setAttribute("msg","Record Insertion Successfull!");
+			req.getRequestDispatcher("AddEmployee.jsp").forward(req, res);
+			}
 		else {
-			System.out.println("Record Insertion Failed");
+			req.setAttribute("msg","Record Insertion Failed!");
+			req.getRequestDispatcher("AddEmployee.jsp").forward(req, res);
 		}
 	}
 	
