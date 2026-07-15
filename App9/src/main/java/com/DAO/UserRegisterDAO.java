@@ -11,7 +11,7 @@ public class UserRegisterDAO {
 		try {
 
 			Connection con = DBConnect.get_connection();
-			PreparedStatement pstmt = con.prepareStatement("insert into registration values(?,?,?,?,?)");
+			PreparedStatement pstmt = con.prepareStatement("insert into registration values(?,?,?,?,?,?)");
 			pstmt.setString(1, ub.getUb_username());
 			pstmt.setString(2, ub.getUb_password());
 			pstmt.setString(3, ub.getUb_firstname());
