@@ -14,12 +14,19 @@ import javax.servlet.http.HttpServletResponse;
 public class ViewProfielServlet extends HttpServlet{
  protected void doGet(HttpServletRequest req , HttpServletResponse res) throws ServletException, IOException {
 	 Cookie arr[]=req.getCookies();
+	 String fname=null;
 	 if(arr==null) {
 		 req.setAttribute("msg", "Session Expired");
 		 req.getRequestDispatcher("Register.jsp").forward(req, res);
 	 }
 	 else {
-		 
+		 for(Cookie c:arr) {
+			 if("ck1".equals(c.getName())) {
+				 fname=c.getValue();
+			 }
+		 }
+		 req.setAttribute("fname", fname);
+		 req.getRequestDispatcher("ViewProfile.jsp").forward(req, res);
 	 }
  }
 }

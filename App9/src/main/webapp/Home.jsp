@@ -12,9 +12,10 @@
 		<h1>
 			<%
 			UserBean ub = (UserBean) application.getAttribute("userBean");
-			out.println("Welcome" + ub.getUb_firstname() + "<br><br>");
+			out.println("Welcome " + ub.getUb_firstname() + "<br><br>");
 			%>
 			<a href="view">View Profile</a><br>
+			<a href="edit">Edit</a><br>
 			<br> <a href="logout">Logout</a>
 		</h1>
 </body>
