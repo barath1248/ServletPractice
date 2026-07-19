@@ -24,8 +24,8 @@ This repository contains my daily Java Servlet practice projects while learning 
 | App6 | First JSP program | ✅ |
 | App7 | Project1 | ✅ |
 | App8 | Project2 | ✅ |
-| App9 | Session with cookies | ⏳ |
-| App10 | Hidden Form Fields | ⏳ |
+| App9 | Session with cookies | ✅ |
+| App10 | Final Project | ⏳ |
 | App11 | URL Rewriting | ⏳ |
 | App12 | Filters | ⏳ |
 | App13 | Listeners | ⏳ |
