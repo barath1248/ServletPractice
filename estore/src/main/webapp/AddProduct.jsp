@@ -1,4 +1,3 @@
-<%@page import="com.bean.AdminBean"%>
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
 
@@ -6,7 +5,7 @@
 <html>
 <head>
 <meta charset="ISO-8859-1">
-<title>Admin Home</title>
+<title>Product Result</title>
 
 <style>
 body{
@@ -22,23 +21,22 @@ body{
     padding:30px;
     text-align:center;
     border-radius:10px;
-    box-shadow:0px 0px 10px gray;
+    box-shadow:0 0 10px gray;
 }
 
 h2{
-    color:#333;
+    color:green;
 }
 
 a{
     display:block;
     width:200px;
     margin:15px auto;
-    padding:12px;
+    padding:10px;
     text-decoration:none;
     color:white;
     background:#007BFF;
     border-radius:5px;
-    font-size:18px;
 }
 
 a:hover{
@@ -49,13 +47,13 @@ a:hover{
 </head>
 <body>
 
-<%
-AdminBean ab = (AdminBean)session.getAttribute("adminbean");
-%>
-
 <div class="container">
 
-    <h2>Welcome <%= ab.getFname() %></h2>
+    <%
+        String data = (String)request.getAttribute("msg");
+    %>
+
+    <h2><%= data %></h2>
 
     <a href="AddProduct.html">Add Product</a>
 

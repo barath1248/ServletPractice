@@ -1,6 +1,9 @@
 package com.bean;
 
-public class AdminBean {
+import java.io.Serializable;
+
+@SuppressWarnings("serial")
+public class AdminBean  implements Serializable{
 	private String Username;
 	private String Password;
 	private String Fname;
