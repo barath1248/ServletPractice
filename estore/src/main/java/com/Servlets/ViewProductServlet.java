@@ -16,7 +16,7 @@ import com.bean.ProductBean;
 @WebServlet("/view1")
 public class ViewProductServlet extends HttpServlet{
   protected void doGet(HttpServletRequest req , HttpServletResponse res) throws ServletException, IOException{
-	  HttpSession session=req.getSession();
+	  HttpSession session=req.getSession(false);
 	  if(session==null) {
 		  req.setAttribute("msg", "Session Expired!");
 		  req.getRequestDispatcher("AdminLogin.html").forward(req, res);
