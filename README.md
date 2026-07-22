@@ -30,11 +30,7 @@ This repository contains my daily Java Servlet practice projects while learning 
 | App13 | Listeners | ⏳ |
 | App14 | scheduling | ⏳ |
 | App15 | scheduling | ⏳ |
-| App16 | scheduling | ⏳ |
-| App17 | scheduling | ⏳ |
-| App18 | scheduling | ⏳ |
-| App19 | scheduling | ⏳ |
-| App20 | scheduling | ⏳ |
+
 
 > The table will be updated as I complete each project.
 
