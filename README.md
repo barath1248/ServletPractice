@@ -25,8 +25,7 @@ This repository contains my daily Java Servlet practice projects while learning 
 | App7 | Project1 | ✅ |
 | App8 | Project2 | ✅ |
 | App9 | Session with cookies | ✅ |
-| App10 | Final Project | ⏳ |
-| App11 | URL Rewriting | ⏳ |
+| App10 | Final Project | ✅ |
 | App12 | Filters | ⏳ |
 | App13 | Listeners | ⏳ |
 | App14 | scheduling | ⏳ |
