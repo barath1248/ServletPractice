@@ -29,7 +29,7 @@ This repository contains my daily Java Servlet practice projects while learning 
 | App12 | Filters | ⏳ |
 | App13 | Listeners | ⏳ |
 | App14 | scheduling | ⏳ |
-| App15 | scheduling | ⏳ |
+
 
 
 > The table will be updated as I complete each project.
