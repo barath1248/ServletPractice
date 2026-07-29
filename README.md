@@ -26,10 +26,10 @@ This repository contains my daily Java Servlet practice projects while learning 
 | App8 | Project2 | ✅ |
 | App9 | Session with cookies | ✅ |
 | App10 | Final Project | ✅ |
-| App12 | Filters | ⏳ |
-| App13 | Listeners | ⏳ |
-| App14 | scheduling | ⏳ |
-
+| App11 |  Additional Tags | ✅ |
+| App12 | Exception Handling | ✅ |
+| App13 | Wihout scriptlet tags | ✅ |
+| App14 | Wihout scriptlet tags | ✅ |
 
 
 > The table will be updated as I complete each project.
