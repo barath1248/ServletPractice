@@ -28,8 +28,8 @@ This repository contains my daily Java Servlet practice projects while learning 
 | App10 | Final Project | ✅ |
 | App11 |  Additional Tags | ✅ |
 | App12 | Exception Handling | ✅ |
-| App13 | Wihout scriptlet tags | ✅ |
-| App14 | Wihout scriptlet tags | ✅ |
+| App13 | Expression Language | ✅ |
+| App14 | JSTL | ✅ |
 
 
 > The table will be updated as I complete each project.
