@@ -1,6 +1,6 @@
 # Servlet Practice
 
-This repository contains my daily Java Servlet practice projects while learning Advanced Java.
+This repository contains my daily Java Servlet and JSP practice projects.
 
 ## Goals
 
