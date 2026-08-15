@@ -30,7 +30,7 @@ This repository contains my daily Java Servlet and JSP practice projects.
 | App12 | Exception Handling | ✅ |
 | App13 | Expression Language | ✅ |
 | App14 | JSTL | ✅ |
-
+| CustomerService | CRUD OPERATIONS USING SPRINGBOOT | ✅ |
 
 > The table will be updated as I complete each project.
 
